@@ -1,11 +1,28 @@
-# JHJ OPS Widget — Releases
+# JHJ OPS — 배포판
 
-개인 운영관리 시스템 JHJ OPS 의 **Windows 위젯 앱**을 올리는 공개 저장소입니다. 소스는 비공개 저장소에 있습니다.
+**JHJ OPS** 는 일정 · 업무 · 메일 · 연락처를 한곳에서 다루는 통합 운영 Windows 앱입니다.
 
 ## 받기
 
-[Releases](https://github.com/HyungJIn-kr-97/JHJ_OPS_RELEASE/releases/latest) 에서 `JHJ_OPS-Widget_<버전>_win-x64.exe` 를 받아 실행합니다(설치 없이 한 파일).
-`JHJ_OPS-Widget-win-x64-v<버전>.zip` 은 앱의 자가 업데이트 꾸러미입니다. 파일마다 `.sha256` 이 함께 있습니다.
+**JHJ 포털에서 받습니다** — https://jhj.wecco.co.kr/download/#ops-widget
+
+- JHJ 계정으로 로그인하면 바로 받습니다.
+- 로그인하지 않으면 메일로 기한이 있는 다운로드 주소를 보내 드립니다.
+- 메일로 받은 주소는 누르는 순간의 최신 판을 JHJ 서버에서 내려받는 기한부 주소입니다.
+
+이미 설치한 앱은 스스로 업데이트합니다. 업데이트 파일은 JHJ 서버에서 받고, 받을 때마다 원본과 같은지(SHA-256) 확인합니다.
+
+## 이 저장소
+
+- 판마다 무엇이 추가 · 개선 · 수정됐는지 [Releases](https://github.com/HyungJIn-kr-97/JHJ_OPS_RELEASE/releases) 에 남깁니다.
+- 소스 코드는 비공개 저장소에 있고 여기에는 올리지 않습니다.
+- 배포 방식을 옮기는 동안에는 이미 설치된 옛 판의 업데이트를 위해 Releases 에 설치 파일도 함께 올라갑니다. 새로 받을 때는 위의 포털을 이용해 주십시오.
+
+## 참고
+
+- Windows 10/11 x64 전용입니다.
+- 코드 서명이 없어 처음 실행할 때 SmartScreen 창이 뜰 수 있습니다. 「추가 정보」 → 「실행」을 누릅니다.
+- 옛 이름 JHJ_OPS-Widget 으로 쓰던 PC 는 설치 파일로 한 번 설치하면 설정 · 메일 · 보관함이 그대로 이어집니다.
 
 ## 문의
 
